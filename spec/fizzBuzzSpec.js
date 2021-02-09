@@ -1,10 +1,7 @@
 describe("FizzBuzz", function() {
   var subject;
 
-  beforeEach(function() {
-    console.log('creating subject');
-    subject = new FizzBuzz;
-  });
+  beforeEach(function() { subject = new FizzBuzz; });
 
   it("returns Fizz when 3 is entered", function() {
     expect(subject.input(3)).toEqual('Fizz');
